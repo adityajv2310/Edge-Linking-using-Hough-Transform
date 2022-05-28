@@ -64,7 +64,7 @@ plt.imshow(image)
 plt.title('HOUGH')
 plt.axis('off')
 ```
-## Output
+## Output:
 
 ### Input image and grayscale image
 ![image](https://user-images.githubusercontent.com/75235386/170620603-a7e81a39-83e3-4328-a168-1d65199b9fd3.png)
