@@ -21,10 +21,10 @@ Using the HoughLinesP(),detect line co-ordinates for every points in the images.
 ### Step5:
 Using the HoughLinesP(),detect line co-ordinates for every points in the images.Using For loop,draw the lines on the found co-ordinates.Display the image.
 
-
 ## Program:
 ```Python
-
+# Developed By: Aditya JV
+# Register Number: 212220230002
 # Read image and convert it to grayscale image
 import cv2
 import numpy as np
@@ -65,21 +65,14 @@ plt.title('HOUGH')
 plt.axis('off')
 ```
 ## Output:
-
 ### Input image and grayscale image
 ![image](https://user-images.githubusercontent.com/75235386/170620603-a7e81a39-83e3-4328-a168-1d65199b9fd3.png)
-
 
 ### Canny Edge detector output
 ![image](https://user-images.githubusercontent.com/75235386/170620637-d3e46ef1-c43b-4a63-b7f9-49c74b64d545.png)
 
-
-
 ### Display the result of Hough transform
 ![image](https://user-images.githubusercontent.com/75235386/170620557-b00bd7b6-06f7-4380-9693-6e932c6bb400.png)
-
-
-
 
 ## Result:
 Thus the program is written with python and OpenCV to detect lines using Hough transform. 
